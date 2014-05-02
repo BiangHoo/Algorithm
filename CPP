@@ -1,0 +1,26 @@
+Enter file contents here#include<stdio.h>
+//3Npuls1.cpp       cout the transform times from n to 1 according to the rules below:
+// if n is odd,then n=3*n+1;if n is even ,then n =n/2
+#include<iostream>
+using namespace std;
+int main(){
+	int n;
+	while(cin>>n){
+		int i=0;
+		long long tmp =(long long)n;
+		while(tmp >1){
+			if(tmp%2==1){
+					
+				long long m=(3*tmp+1)/2;
+				//cout<<"m: "<<m<<endl;
+				tmp = m;
+				i += 2;
+			}else{
+				tmp=tmp/2;
+				i++;
+			}
+		}
+		cout<<i<<endl;
+	}
+	return 0;
+}
