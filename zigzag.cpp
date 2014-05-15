@@ -1,6 +1,15 @@
 //BiangHoo May 2014
 //Description:print out the zigzag array
 //Reference:http://www.cnblogs.com/emituofo/archive/2012/07/24/2607179.html
+/*    1     5     6    14    15    27    28
+    4     7    13    16    26    29    42
+    8    12    17    25    30    41    43
+   11    18    24    31    40    44    53
+   19    23    32    39    45    52    54
+   22    33    38    46    51    55    60
+   34    37    47    50    56    59    61
+   36    48    49    57    58    62    63
+*/
 #include<iostream>
 #include<cstdio>
 using namespace std;
