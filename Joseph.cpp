@@ -1,5 +1,5 @@
 //BiangHoo May 2014
-//Description：classical joseph problem ,N men ,cout from the K th person with a circle of M.
+//Description：classical joseph problem ,N men ,count from the K th person with a circle of M.
 #include<iostream>
 using namespace std;
 typedef struct node{
